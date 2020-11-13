@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("fonts/ttf/IRANSansWeb.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: rgb(42, 43, 42);
+  font-family: "IRANSansWeb", sans-serif;
+}
+
+.box {
+  background-color: rgb(236, 241, 243);
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 20px auto;
+  padding: 15px;
+  height: 600px;
+  width: 585px;
+  -webkit-box-shadow: 3px 7px 5px rgb(192, 192, 192);
+  -moz-box-shadow: 3px 7px 5px rgb(177, 177, 177);
+  box-shadow: 3px 7px 5px rgb(182, 181, 181);
+}
+
+#head {
+  text-align: center;
+  color: rgb(21, 8, 141);
+  text-shadow: 0px 1px rgb(21, 8, 141);
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+#p1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#p2 {
+  text-align: justify;
+  font-size: 15px;
+  text-shadow: 1px 0px black;
+  line-height: 2.3;
+  margin:1px 25px ;
+}
+
+#p3{
+    text-align: right;
+    font-size: 15px;
+    text-shadow: 1px 0px black;
+    margin:65px 25px ;
+}
